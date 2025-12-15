@@ -43,3 +43,6 @@ temp/
 # Go workspace file (Go 1.18+)
 go.work
 go.work.sum
+
+# Claude Code local settings
+.claude/settings.local.json
