@@ -1,0 +1,45 @@
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# Go test coverage
+*.out
+coverage.txt
+coverage.html
+
+# Go vendor
+vendor/
+
+# IDE and Editor
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Go workspace file (Go 1.18+)
+go.work
+go.work.sum

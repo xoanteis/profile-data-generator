@@ -1,0 +1,30 @@
+# Cursor AI Rules for Profile Data Generator
+
+## Project Context
+This is a Go project for generating profile data. The project is developed on both Windows (PowerShell) and Ubuntu 20.04 (WSL).
+
+## Go Conventions
+- Use tabs for indentation (not spaces)
+- Follow standard Go formatting with gofmt/goimports
+- Use golangci-lint for linting
+- Write tests for all public functions
+- Use descriptive variable and function names
+- Keep functions small and focused
+
+## Code Style
+- Use conventional Go project structure
+- Place main package in cmd/ directory
+- Place reusable code in pkg/ or internal/
+- Use Go modules for dependency management
+- Follow Go naming conventions (camelCase for unexported, PascalCase for exported)
+
+## Testing
+- Write table-driven tests where appropriate
+- Use subtests for related test cases
+- Aim for meaningful test coverage
+- Mock external dependencies
+
+## Documentation
+- Add godoc comments for exported functions and types
+- Keep README.md updated with usage examples
+- Document complex algorithms and business logic

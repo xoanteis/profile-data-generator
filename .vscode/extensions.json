@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "golang.go",
+    "eamodio.gitlens",
+    "editorconfig.editorconfig",
+    "ms-vscode-remote.remote-wsl"
+  ]
+}
